@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#a8a8a8"
+    tools:context=".MainDlg" >
+
+    
+      <Button
+        android:id="@+id/button31"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/gridview3_1" />
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button31"
+        android:layout_alignRight="@+id/button31"
+        android:layout_below="@+id/button31"
+        android:text="金属切削加工结构设计"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff0000"
+  
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+            android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/textView31"
+        android:src="@drawable/page3" />
+
+
+</RelativeLayout>

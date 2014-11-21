@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/zhoukongjixianpianchatoptv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="按偏差值选用公差带"
+        android:textColor="#000000"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/table02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="请输入上偏差:"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et0201"
+                android:digits="0123456789-."
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="请输入下偏差:"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et0202"
+                android:digits="0123456789-."
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="请输入基本尺寸:"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et0203"
+                android:numeric="decimal"
+                android:scrollHorizontally="true" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button0102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/table01"
+        android:layout_gravity="right"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="15dip"
+        android:text="查询"
+        android:textSize="25.0dip" />
+
+    <TextView
+        android:id="@+id/tv0201"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/adLayout02"
+        android:layout_marginTop="5dip"
+        android:padding="3.0dip"
+        android:text="提示:输入单位为毫米，偏差值越精确越好，否则会导致结果太多，基本尺寸必须在0-500毫米之间！"
+        android:textColor="#ff1770e1"
+        android:textSize="15.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:padding="5.0dip"
+        android:text=""
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+</LinearLayout>

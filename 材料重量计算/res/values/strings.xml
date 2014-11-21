@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">材料重量计算</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bangcai">Bangcai</string>
+    <string name="title_activity_guancai">Guancai</string>
+    <string name="title_activity_bancai">bancai</string>
+    <string name="title_activity_jiaogang">Jiaogang</string>
+    <string name="title_activity_caogang">Caogang</string>
+    <string name="title_activity_gongzhigang">Gongzhigang</string>
+
+        <string-array name="cailiao">
+        <item >碳钢</item>
+        <item >不锈钢</item>
+        <item >铝</item>
+        <item >黄铜</item>
+        <item >紫铜</item>
+        <item >塑料</item>
+    </string-array>
+        <string-array name="jiaogang">
+        <item >2-3</item>
+        <item >2-4</item>
+        <item >2.5-3</item>
+        <item >2.5-4</item>
+        <item >3.0-3</item>
+        <item >3.0-4</item>
+    </string-array>
+    
+           <string-array name="caogang">
+        <item >5</item>
+        <item >6.3</item>
+        <item >8</item>
+        <item >10</item>
+        <item >12</item>
+        <item >14a</item>
+        <item >14b</item>
+        <item >16a</item>
+        <item >16b</item>
+    </string-array>
+    
+</resources>

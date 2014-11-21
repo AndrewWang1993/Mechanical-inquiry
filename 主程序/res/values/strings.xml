@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">主界面</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+
+
+    <string name="title_activity_main_activity_gong_cha_dai">MainActivityGongChaDai</string>
+    <string name="title_activity_main_activity_pian_cha_zhi">MainActivityPianChaZhi</string>
+    <string name="title_activity_main_activity_pianchazhi">MainActivityPianchazhi</string>
+
+
+
+    <string name="title_activity_main_activitydfs">MainActivitydfs</string>
+    <string name="title_activity_main_activityds">MainActivityds</string>
+    <string name="title_activity_mtest">Mtest</string>
+    <string name="title_activity_welcome">Welcome</string>
+
+</resources>

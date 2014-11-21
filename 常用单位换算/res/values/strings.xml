@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">changyongdanwei</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_changdu">Changdu</string>
+
+    <string-array name="changdu">
+        <item>千米/公里（km）</item>
+        <item>米（m）</item>
+        <item>分米（dm）</item>
+        <item>厘米（cm）</item>
+        <item>毫米（mm）</item>
+        <item>微米（um）</item>
+        <item>纳米（μm）</item>
+    </string-array>
+    
+    <string-array name="mianji">
+        <item>平方千米</item>
+        <item>公顷</item>
+        <item>公亩</item>
+        <item>平方米</item>
+        <item>平方分米</item>
+        <item>平方厘米</item>
+        <item>平方毫米</item>
+    </string-array>
+    
+    <string-array name="tiji">
+        <item>立方米</item>
+        <item>公石（百升）</item>
+        <item>升（立方分米）</item>
+        <item>分升</item>
+        <item>厘升（mm）</item>
+        <item>毫升（立方厘米）</item>
+        <item>立方毫米（μm）</item>
+    </string-array>
+    <string-array name="zhiliang">
+        <item>吨</item>
+        <item>公担</item>
+        <item>千克</item>
+        <item>克</item>
+        <item>毫克</item>
+        <item>微克</item>
+
+    </string-array>
+    <string-array name="midu">
+        <item>千克/立方厘米</item>
+        <item>克/立方厘米</item>
+        <item>千克/立方米</item>
+        <item>克/立方米</item>
+    </string-array>
+    
+    <string-array name="shijian">
+        <item>年</item>
+        <item>周</item>
+        <item>天</item>
+        <item>时</item>
+        <item>分</item>
+        <item>秒</item>
+        <item>毫秒</item>
+        <item>微秒</item>
+    </string-array>
+
+    <string name="title_activity_mianji">Mianji</string>
+    <string name="title_activity_tiji">Tiji</string>
+    <string name="title_activity_midu">Midu</string>
+    <string name="title_activity_shijian">Shijian</string>
+    <string name="title_activity_zhiliang">Zhiliang</string>
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#B3B3B3"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tablegc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="材料类型:"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spgccailiaoleixing"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="密度(吨/立方米):"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvgcmidu"
+                android:layout_width="fill_parent"
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="外径(毫米):"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etgcwaijing"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip"
+                android:numeric="decimal"
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="壁厚(毫米):"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etgcbihou"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip"
+                android:numeric="decimal"
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="长度(毫米):"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etgcchangdu"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip"
+                android:numeric="decimal"
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3.0dip"
+                android:text="单价(元/吨):"
+                android:textColor="#ffffffff"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etgcdanjia"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip"
+                android:numeric="decimal"
+                android:scrollHorizontally="true" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btgcjisuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tablegc"
+        android:layout_marginLeft="10.0dip"
+        android:text="计算"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:id="@+id/tvgczhongliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btgcjisuan"
+        android:text="重量："
+        android:textColor="#ffffffff"
+        android:textSize="25.0dip" />
+    <TextView
+        android:id="@+id/zhongliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvgczhongliang"
+        android:layout_alignTop="@id/tvgczhongliang"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="25.0dip" />
+
+    <TextView
+        android:id="@+id/tvgcjiage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvgczhongliang"
+        android:text="价格："
+        android:textColor="#ffffffff"
+        android:textSize="25.0dip" />
+    <TextView
+        android:id="@+id/jiage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvgcjiage"
+        android:layout_alignTop="@id/tvgcjiage"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="25.0dip" />
+
+</RelativeLayout>

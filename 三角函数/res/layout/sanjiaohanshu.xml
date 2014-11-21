@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+ >
+
+        <TextView
+            android:id="@+id/tgttoptv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="常用三角函数值计算"
+            android:textColor="#000000"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tgttishitv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tgttoptv"
+            android:text="请输入要计算的值："
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tgtet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tgttoptv"
+            android:layout_toRightOf="@id/tgttishitv"
+            android:numeric="decimal" />
+
+        <Button
+            android:id="@+id/tgtjisuanbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tgtet"
+            android:layout_marginLeft="10.0dip"
+            android:text="计算"
+            android:textSize="18.0dip" />
+
+
+
+        <TextView
+            android:id="@+id/tgtrestv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tgtjisuanbt"
+            android:textSize="20.0dip" />
+
+    </RelativeLayout>
+</ScrollView>

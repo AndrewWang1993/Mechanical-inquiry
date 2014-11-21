@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/zhoukongjixianpianchatoptv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="按公差带查询偏差值"
+        android:textColor="#000000"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tishi01tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3.0dip"
+                        android:text="提示：输入的基本尺寸必须在0-500毫米之间，先选择公差带，再选择精度等级！"
+                        android:textColor="#ff1770e1"
+                        android:textSize="15.0dip"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:id="@+id/table01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tishi01tv"
+                        android:stretchColumns="1" >
+
+                        <TableRow>
+
+                            <TextView
+                                android:gravity="right"
+                                android:padding="3.0dip"
+                                android:text="请输入基本尺寸:"
+                                android:textSize="25.0dip"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/et01"
+                                android:numeric="decimal"
+                                android:scrollHorizontally="true" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:gravity="right"
+                                android:padding="3.0dip"
+                                android:text="请选择公差带:"
+                                android:textSize="25.0dip"
+                                android:textStyle="bold" />
+
+                            <Spinner
+                                android:id="@+id/spinner01"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:gravity="right"
+                                android:padding="3.0dip"
+                                android:text="请选择精度等级:"
+                                android:textSize="25.0dip"
+                                android:textStyle="bold" />
+
+                            <Spinner
+                                android:id="@+id/spinner02"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <Button
+                        android:id="@+id/button0101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/table01"
+                        android:layout_marginLeft="10.0dip"
+                        android:text="查询"
+                        android:textSize="25.0dip" />
+                </RelativeLayout>
+            </ScrollView>
+        </FrameLayout>
+
+  
+        
+
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+      <TextView
+            android:id="@+id/result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6.0dip"
+            android:text=""
+            android:layout_marginTop="300dip"
+            android:textSize="35.0dip"
+            android:textStyle="bold" />
+      
+      <TextView
+            android:id="@+id/result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6.0dip"
+            android:text=""
+            android:textColor="#ff0000"
+            android:layout_marginTop="305dip"
+            android:layout_toRightOf="@id/result1"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+      
+      <TextView
+            android:id="@+id/result3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6.0dip"
+            android:text=""
+            android:textColor="#ff0000"
+            android:layout_marginTop="325dip"
+            android:layout_toRightOf="@id/result1"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+        </RelativeLayout>

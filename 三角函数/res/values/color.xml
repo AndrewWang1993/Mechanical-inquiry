@@ -1,0 +1,6 @@
+<resources>
+   <drawable name="darkgray">#A9A9A9</drawable> 
+   <drawable name="white">#FFFFFFFF</drawable>
+   <drawable name="back">#A9A9A9</drawable>
+   
+</resources>

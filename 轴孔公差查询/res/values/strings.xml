@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">轴孔公差查询列表</string>
+
+    <string-array name="gongchadai">
+        <item >f</item>
+        <item >g</item>
+        <item >h</item>
+        <item >k</item>
+        <item >m</item>
+        <item >n</item>
+        <item >js</item>
+    </string-array>
+
+    <string name="title_activity_main_activity_gong_cha_dai">MainActivityGongChaDai</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">gongchadai</string>
+    <string name="title_activity_main_activity_pian_cha_zhi">MainActivityPianChaZhi</string>
+    <string name="title_activity_main_activity_pianchazhi">MainActivityPianchazhi</string>
+    
+    <string-array name="jingdu">
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+    </string-array>
+
+</resources>

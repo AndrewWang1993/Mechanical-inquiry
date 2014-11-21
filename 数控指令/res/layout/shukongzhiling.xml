@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A9A9A9" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+      <TextView
+            android:id="@+id/select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:text="请选择机床的品牌"
+           android:textStyle="bold"
+           android:textSize="25dip"
+           android:textColor="#aa3344"
+            android:background="#ffc0c0c0" />
+        <Spinner
+            android:id="@+id/cncsp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/select"
+            android:textSize="20.0dip" />
+
+        <TextView
+            android:id="@+id/backtv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cncsp"
+            android:textColor="#0000ee"
+            android:background="#ffc0c0c0" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maindlg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="机械设计手册"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wangxm.mechanical_inquiry.Welcome"
+            android:label="机械设计手册" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.wangxm.mechanical_inquiry.MainDlg">
+        </activity>
+        
+        <activity android:name="com.example.gc1_1.gongcha1_1" />
+        <activity android:name="com.example.gc1_1.gongcha_gonchadai" />
+        <activity android:name="com.example.gc1_1.gongcha_pianchazhi" />
+        <activity android:name="com.example.xwgc1_2.xingweigongcha1_2" />
+        <activity android:name="com.example.lwbz1_3.luowenbiaozhun" />
+        <activity android:name="com.example.clsj1_4.chilunsheji" />
+        <activity android:name="com.example.clsj1_4.Jiankaixian" />
+        <activity android:name="com.example.clsj1_4.Zhichilun" />
+        <activity android:name="com.example.clsj1_4.Xiechilun" />
+        <activity android:name="com.example.wlwg1_5.wolunwogan" >
+        </activity>
+        <activity android:name="com.example.wlwg1_5.Chichunjisuan" >
+        </activity>
+        <activity android:name="com.example.wlwg1_5.showhtml" >
+        </activity>
+        <activity android:name="com.example.llsj1_6.lianlunsheji" >
+        </activity>
+        <activity android:name="com.example.llsj1_6.Showhtml" >
+        </activity>
+        <activity android:name="com.example.zccs1_7.zhoucheng" >
+        </activity>
+        <activity android:name="com.example.zccs1_7.Zhoucheng1" >
+        </activity>
+        <activity android:name="com.example.zccs1_7.Zhoucheng2" >
+        </activity>
+        <activity android:name="com.example.zccs1_7.Zhoucheng3" >
+        </activity>
+        <activity android:name="com.example.zccs1_7.Zhoucheng3_x" >
+        </activity>
+        <activity android:name="com.example.lzq1_8.lianzhouqi" />
+        <activity android:name="com.example.lzq1_8.showhtml" />
+        <activity android:name="com.example.clzl1_9.cailiaozhongliang" >
+        </activity>
+        <activity android:name="com.example.clzl1_9.Bangcai" >
+        </activity>
+        <activity android:name="com.example.clzl1_9.Guancai" >
+        </activity>
+        <activity android:name="com.example.clzl1_9.Jiaogang" >
+        </activity>
+        <activity android:name="com.example.clzl1_9.Caogang" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Changyongdanwei" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Changdu" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Mianji" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Tiji" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Midu" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Shijian" >
+        </activity>
+        <activity android:name="com.example.cydy2_1.Zhiliang" >
+        </activity>
+        <activity android:name="com.example.sjhs2_2.Sanjiaohanshu" />
+        <activity android:name="com.example.gcclsj2_3.gongchengcailiao" />
+        <activity android:name="com.example.gcclsj2_3.Showhtml" />
+        <activity android:name="com.example.thcs2_4.tanhuangcanshu" />
+        <activity android:name="com.example.skzl2_5.Shukongzhiling" />
+        <activity android:name="com.example.jxzshz2_6.Jixiezhishi" />
+        <activity android:name="com.example.jlj2_7.jianlianjie" />
+        <activity android:name="com.example.jlj2_7.showhtml" />
+        <activity android:name="com.example.hjlj2_8.huajianlianjie" />
+        <activity android:name="com.example.hjlj2_8.showhtml" />
+        <activity android:name="com.example.xlj2_9.xiaolianjie" />
+        <activity android:name="com.example.xlj2_9.showhtml" />
+        <activity android:name="com.example.jsqx3_1.jinshuqiexue" />
+        <activity android:name="com.example.jsqx3_1.showhtml" />
+
+    </application>
+
+</manifest>
